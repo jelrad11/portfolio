@@ -401,7 +401,7 @@
     "lodash.keys": "^3.1.2",
     "lodash.memoize": "^4.1.2",
     "lodash.restparam": "^3.6.1",
-    "lodash.template": "^3.6.2",
+    "lodash.template": "^4.5.0",
     "lodash.templatesettings": "^3.1.1",
     "lodash.uniq": "^4.5.0",
     "longest": "^1.0.1",
