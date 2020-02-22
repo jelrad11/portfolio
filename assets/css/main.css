@@ -207,7 +207,7 @@ input, select, textarea {
 		}
 
 	h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
@@ -224,6 +224,9 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1em;
+		margin: 0 0 1em 0;
+		color: rgba(255,255,255,0.7);
+		font-weight: 500;
 	}
 
 	h4 {
@@ -304,7 +307,8 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 1px #c9c9c9;
-		margin: 2em 0;
+		margin: 1em 0 0em 0em;
+		border-width: 0.15em;
 	}
 
 		hr.major {
@@ -2789,6 +2793,11 @@ input, select, textarea {
 					margin: 1.25em 0 0 1.25em;
 				}
 
+				.tiles .divider-div01{
+					margin-left:1.5em;
+				}
+
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2800,6 +2809,10 @@ input, select, textarea {
 				.tiles article {
 					width: calc(50% - 2.5em);
 					margin: 2.5em 0 0 2.5em;
+				}
+
+				.tiles .divider-div01{
+					margin-left:2.5em;
 				}
 
 		}
@@ -2822,6 +2835,10 @@ input, select, textarea {
 						transform: scale(1.0);
 					}
 
+				.tiles .divider-div01{
+					margin-left:1.5em;
+				}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2834,6 +2851,10 @@ input, select, textarea {
 					width: 100%;
 					margin: 1.25em 0 0 0;
 				}
+
+			.tiles .divider-div01{
+				margin-left:0.5em;
+			}
 
 		}
 
@@ -3356,4 +3377,14 @@ input, select, textarea {
 			font-weight: 400;
 			color: rgba(255,255,255,0.5);	
 			text-align: center;
+		}
+
+		.divider-div01
+		{
+			width: 100%;
+			margin: 4em 0em 0em 2.5em;
+			
+
+
+			border-width: 3px;
 		}
