@@ -200,7 +200,7 @@ input, select, textarea {
 		font-size: 3em;
 		font-family: "Ilisarniq-bold";
 		line-height: 1.3;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.10em 0;
 		letter-spacing: -0.035em;
 		color: #fff;
 		text-align: center;
@@ -215,7 +215,7 @@ input, select, textarea {
 
 			h1 {
 				font-size: 2em;
-				margin: 0 0 1em 0;
+				margin: 0 0 0.35em 0;
 			}
 
 		}
@@ -2875,7 +2875,7 @@ input, select, textarea {
 				}
 
 			.tiles .divider-div01{
-				margin-left:0.5em;
+				margin-left:0em;
 			}
 
 		}
@@ -2883,7 +2883,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 10em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -3389,24 +3389,28 @@ input, select, textarea {
 
 
 
+	h2.headerDesc  
+	{
+		
+		text-align: center;
+		font-family: "Ilisarniq-bold";
+		color:rgba(255,255,255,0.7);	
+	}
+
+	p.headerDesc 
+	{
+		color:red;
+		font-size: 16px;
+		color: rgba(255,255,255,0.5);	
+		text-align: center;
+	}
+
+	.divider-div01
+	{
+		width: 100%;
+		margin: 4em 0em 0em 2.5em;
+		
 
 
-
-
-		.headerDesc
-		{
-			font-size: 16px;
-			font-weight: 400;
-			color: rgba(255,255,255,0.5);	
-			text-align: center;
-		}
-
-		.divider-div01
-		{
-			width: 100%;
-			margin: 4em 0em 0em 2.5em;
-			
-
-
-			border-width: 3px;
-		}
+		border-width: 3px;
+	}
