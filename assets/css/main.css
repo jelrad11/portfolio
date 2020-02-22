@@ -2,11 +2,33 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 @font-face{
-	font-family:'Ilisarniq';
-	src: url(fonts/Ilisarniq-Regular.otf);
-	font-weight: 400;
+	font-family:'Ilisarniq-regular';
+	src: url(/assets/fonts/Ilisarniq-Regular.otf);
+	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face{
+	font-family:'Ilisarniq-Black';
+	src: url(/assets/fonts/Ilisarniq-Black.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family:'Ilisarniq-bold';
+	src: url(/assets/fonts/Ilisarniq-Bold.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family:'Ilisarniq-light';
+	src: url(/assets/fonts/Ilisarniq-Light.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
 
 
 
@@ -176,7 +198,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 3em;
-		font-weight: 700;
+		font-family: "Ilisarniq-bold";
 		line-height: 1.3;
 		margin: 0 0 1em 0;
 		letter-spacing: -0.035em;
@@ -207,7 +229,7 @@ input, select, textarea {
 		}
 
 	h2, h3, h4, h5, h6 {
-		font-weight: 700;
+		font-family: "Ilisarniq-bold";
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
@@ -226,7 +248,7 @@ input, select, textarea {
 		font-size: 1em;
 		margin: 0 0 1em 0;
 		color: rgba(255,255,255,0.7);
-		font-weight: 500;
+		
 	}
 
 	h4 {
