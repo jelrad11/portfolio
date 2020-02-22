@@ -2610,7 +2610,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		postiion: relative;
-		margin: -2.5em 0 0 -2.5em;
+		margin: -2em 0 0 -2em;
 	}
 
 		.tiles article {
@@ -2619,8 +2619,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
-			margin: 2.5em 0 0 2.5em;
+			width: calc(25% - 1.5em);
+			margin: 1.5em 0 0 1.5em;
 		}
 
 			.tiles article > .image {
@@ -2811,12 +2811,12 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(33.33333% - 1.25em);
+					width: calc(25% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
 				.tiles .divider-div01{
-					margin-left:1.5em;
+					margin-left:1.25em; 
 				}
 
 
@@ -2825,16 +2825,16 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.tiles {
-				margin: -2.5em 0 0 -2.5em;
+				margin: -1.5em 0 0 -1.5em;
 			}
 
 				.tiles article {
-					width: calc(50% - 2.5em);
-					margin: 2.5em 0 0 2.5em;
+					width: calc(33.3% - 1.5em);
+					margin: 1.5em 0 0 1.5em;
 				}
 
 				.tiles .divider-div01{
-					margin-left:2.5em;
+					margin-left:1.5em;
 				}
 
 		}
@@ -2858,7 +2858,7 @@ input, select, textarea {
 					}
 
 				.tiles .divider-div01{
-					margin-left:1.5em;
+					margin-left:1.25em;
 				}
 
 		}
@@ -3408,7 +3408,7 @@ input, select, textarea {
 	.divider-div01
 	{
 		width: 100%;
-		margin: 4em 0em 0em 2.5em;
+		 margin: 4em 0em 0em 1.5em; 
 		
 
 
