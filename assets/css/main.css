@@ -2935,7 +2935,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 10em 0 0.1em 0 ;
+		padding: 7em 0 1em 0 ;
 	}
 
 		#header .logo {
@@ -3468,19 +3468,17 @@ input, select, textarea {
 	}
 
 	.resumeGrid {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: 1fr;
-		grid-column-gap: 6em;
-		grid-row-gap: 0px;
-
-		box-sizing: content-box;
+		display: flex;
+		flex-wrap:nowrap;
 		text-align: center;
 		
 		
 		padding: 1em;
 		margin:0 0 2.5em 0;
 		/* background-color: rgba(255, 255, 255, 0.15); */
+
+		grid-template-columns: auto-fill;
+
 
 		}
 
@@ -3501,6 +3499,7 @@ input, select, textarea {
 			{
 				padding: 0.5em 1.5em 1.5em 1.5em;
 				margin-bottom: 0;
+				grid-area:myCareer;
 			}
 
 
@@ -3512,11 +3511,13 @@ input, select, textarea {
 			grid-row-gap: 0px;
 			grid-area: 1 / 2 / 2 / 3;
 			/*background-color:rgba(88, 88, 88, 0.5);}*/
+			grid-area:myServices;
 			}
 			
 			.serviceCol1{
 				padding:1.25em;
 				/* background-color:orange; */
+				
 			}
 			
 			.serviceCol2{
@@ -3536,4 +3537,17 @@ input, select, textarea {
 
 				color:rgba(255,255,255,0.6);
 			}
+		/* Resume flex -->*/
+			@media screen and (max-width: 980px) {
+				.resumeGrid {
+					flex-wrap:wrap;
+				}
+			}
+		/* Portfolio hide description-->*/
+			@media screen and (max-width: 980px) {
+				.tiles article p
+				{
+					opacity: 0;
+				}
 
+			}
