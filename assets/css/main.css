@@ -2752,21 +2752,25 @@ input, select, textarea {
 			.tiles article.style1 > .image:before{
 				background-color: #255c85;
 			}
-/* random comment */
+
 			.tiles article.style2 > .image:before{
-				background-color: #7ecaf6;
+				background-color: #761a19;
 			}
 
 			.tiles article.style3 > .image:before{
+				background-color: #2b3131;
+			}
+
+			.tiles article.style4 > .image:before{
 				background-color: #ea5a56;
 			}
 
 			.tiles article.style01 > .image:before{
-				background-color: #ea5a56;
+				background-color: #c4896a;
 			}
 
 			.tiles article.style02 > .image:before{
-				background-color: #b9d95c;
+				background-color: #67a128;
 			}
 
 			.tiles article.style03 > .image:before{
@@ -2774,6 +2778,16 @@ input, select, textarea {
 			}
 
 			.tiles article.style04 > .image:before{
+				background-color: #ec8120;
+			}
+
+			.tiles article.style001 > .image:before{
+				background-color: #8c2c2d;
+			}
+			.tiles article.style002 > .image:before{
+				background-color: #ec8120;
+			}
+			.tiles article.style003 > .image:before{
 				background-color: #ec8120;
 			}
 
@@ -3438,12 +3452,6 @@ input, select, textarea {
 			}
 
 		}
-
-
-
-
-
-
 
 
 	h2.headerDesc  
