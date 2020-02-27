@@ -3296,6 +3296,12 @@ input, select, textarea {
 		background-color: #f6f6f6;
 	}
 
+	#footer h2
+	{
+		color: rgba(0, 0, 0, 0.55);
+		
+	}
+
 		#footer > .inner {
 			display: -moz-flex;
 			display: -webkit-flex;
