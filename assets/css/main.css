@@ -3667,6 +3667,20 @@ input, select, textarea {
 				{
 					font-family:"Ilisarniq-bold";	
 				}
+
+							
+				.pr-FlexArticle
+				{
+					display:flex;
+					align-items: center;
+					justify-content:center;
+				}
+								
+					.pr-FlexArticle .pr-imgDivider{
+
+						margin: 1.5em 1em 1em 1em!important;	
+					}
+			/* Headers Scaling */
 				@media screen and (max-width: 980px) {
 					.pr-Summary h3
 					{
@@ -3682,15 +3696,30 @@ input, select, textarea {
 						font-size:30px;
 					}
 				}
-			
-				.pr-FlexArticle
-				{
-					display:flex;
-					align-items: center;
-					justify-content:center;
-				}
-								
+
+				@media screen and (max-width: 480px) {
+					#main .pr-Article p
+					{
+						margin:0.5em;
+						font-size:13px;
+					}
+					.pr-Summary h3
+					{
+						
+					}
+					.pr-Summary
+					{
+						padding: 0em 1em 0.5em 1em;
+						margin:0;
+					}
+					.pr-imgDivider .header h2
+					{
+						font-size:15px;
+					}
+
 					.pr-FlexArticle .pr-imgDivider{
 
-						margin: 1.5em 1em 1em 1em!important;	
+						margin: 1.5em 0.5em 0.5em 0.5em!important;	
 					}
+				}
+
