@@ -3572,23 +3572,39 @@ input, select, textarea {
 				}
 
 			}
+
+			#main .pr-Article p
+			{
+				text-align:justify;
+				margin: 0em 1.5em 0em 1.5em;
+				margin-bottom:2em;
+				color:white;
+				opacity:0.5;
+				font-size:17px;
+			}
+
 			.pr-header img
 			{
-				padding:1em 0em 1em 0em ;
+				margin:0em 0em 1em 0em ;
 				height:10em;
 				object-fit:cover;
 				object-position: 50% 80%;
-			
 			}
 
 			.pr-imgDivider{
-				margin-bottom:0.15em !important;
+
+				margin: 3em 1em 1em 1em!important;
+
+				display:flex;
+				width:auto!important;
+				
 			}
+
 
 			.pr-imgDivider img
 			{
 				
-				padding:1em 0em 1em 0em ;
+				padding:0em 0em 0em 0em ;
 				height:6em;	
 				object-fit:cover;
 				object-position: 50% 80%;
@@ -3599,6 +3615,8 @@ input, select, textarea {
 				height:6em;	
 				display:flex;
 				position: relative;
+				width:auto;
+				
 				
 				
 
@@ -3607,7 +3625,7 @@ input, select, textarea {
 				{
 
 					position: absolute;
-					width:inherit;
+					width:auto;
 					display:flex;
 					align-items:center;
 					justify-content: center;
@@ -3617,7 +3635,8 @@ input, select, textarea {
 				}
 					.pr-imgDivider .header h2
 					{
-						align-self: flex-center;
+						
+						/* align-self: flex-center; */
 						font-size:50px;	
 						margin-block-end:0;		
 					}
@@ -3626,8 +3645,8 @@ input, select, textarea {
 			{
 				width: 30%;
 				min-height: 5em;
-				padding: 0em 1em 1em 1em;
-				margin: 0em 0.8em 0.8em 0.8em;
+				padding: 0em 2em 1em 2em;
+				margin: 0em 0em 0em 0em;
 
 				/* background-color:orange; */
 				border-radius: 7px;
@@ -3635,16 +3654,43 @@ input, select, textarea {
 				right:0;	
 			}
 
-				.pr-Summary p
+				.pr-Summary p 
 				{
 					text-align: left !important;
 					color:white;
-					opacity:0.5;
-					margin-bottom:22px;
+					margin: 0em 0em 0em 0em !important;
+					opacity:0.35 !important;
+					margin-bottom:1em!important;
 				}
 
 				.pr-Summary .bold
 				{
-					font-family:"Ilisarniq-bold";
-				
+					font-family:"Ilisarniq-bold";	
 				}
+				@media screen and (max-width: 980px) {
+					.pr-Summary h3
+					{
+						
+					}
+					.pr-Summary
+					{
+						padding: 0em 1em 0.5em 1em;
+						margin:0;
+					}
+					.pr-imgDivider .header h2
+					{
+						font-size:30px;
+					}
+				}
+			
+				.pr-FlexArticle
+				{
+					display:flex;
+					align-items: center;
+					justify-content:center;
+				}
+								
+					.pr-FlexArticle .pr-imgDivider{
+
+						margin: 1.5em 1em 1em 1em!important;	
+					}
