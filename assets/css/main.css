@@ -3772,7 +3772,7 @@ input, select, textarea {
 
 				.pr-gallery a
 				{
-					border-bottom:0;
+					border:none;
 					
 
 				}
