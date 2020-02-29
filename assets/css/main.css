@@ -2617,7 +2617,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2em 0 0 -2em;
 	}
 
@@ -3605,14 +3605,14 @@ input, select, textarea {
 			{
 				
 				padding:0em 0em 0em 0em ;
-				height:6em;	
+				height:3em;	
 				object-fit:cover;
 				object-position: 50% 80%;
 			}
 			
 			.pr-imgDivider .cont
 			{
-				height:6em;	
+				height:3em;	
 				display:flex;
 				position: relative;
 				width:auto;
@@ -3645,7 +3645,7 @@ input, select, textarea {
 			{
 				width: 30%;
 				min-height: 5em;
-				padding: 0em 2em 1em 2em;
+				padding: 0em 1.5em 1em 1.5em;
 				margin: 0em 0em 0em 0em;
 
 				/* background-color:orange; */
@@ -3726,4 +3726,70 @@ input, select, textarea {
 						margin: 1.5em 0.5em 0.5em 0.5em!important;	
 					}
 				}
+
+			/* Gallery*/
+			
+			.pr-gallery
+			{
+				display:flex;
+				flex-wrap:wrap;
+				margin: 1em 1em 0 1em;
+			}
+				.pr-galleryBlock
+				{	
+					
+					margin: 1em 0em 0em 1em;
+					
+					width: calc(33% - 1em);
+					
+
+				}
+				 .pr-galleryBlock div:last-child
+				{
+					flex-grow: 10;
+				}
+ 
+
+
+				.pr-galleryBlock img
+				{
+					
+					object-fit: cover;
+					max-width: 100%;
+					max-height: 100%;
+					border-radius:4px;
+					
+					
+					
+					transition: all 0.2s ease-in-out;
+
+					-webkit-transition: 0.2s ease-in-out;
+					-moz-transition: 0.2s ease-in-out;
+					-o-transition: 0.2s ease-in-out;
+					transition: 0.2s ease-in-out;
+
+				}
+
+				.pr-gallery a
+				{
+					border-bottom:0;
+					
+
+				}
+		/*Gallery animation */
+
+		.pr-galleryBlock :hover{
+
+			-webkit-transform: scale(1.05);
+			-moz-transform: scale(1.05);
+			-o-transform: scale(1.05);
+			-ms-transform:scale(1.05);
+			transform:  scale(1.05);
+
+/* 			border-width: 4px;
+			border-style: solid;
+			border-color:white; */
+			
+		}
+
 
