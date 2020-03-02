@@ -3583,6 +3583,16 @@ input, select, textarea {
 				font-size:17px;
 			}
 
+			#main .pr-Article li
+			{
+				text-align:justify;
+				margin: 0em 1.5em 0em 1.5em;
+
+				color:white;
+				opacity:0.5;
+				font-size:17px;
+			}
+
 			.pr-header img
 			{
 				margin:0em 0em 1em 0em ;
@@ -3593,10 +3603,18 @@ input, select, textarea {
 
 			.pr-imgDivider{
 
-				margin: 3em 1em 1em 1em!important;
+				margin: 2.5em 1em 1em 1em!important;
 
 				display:flex;
 				width:auto!important;
+
+				-webkit-touch-callout: none; /* iOS Safari */
+				-webkit-user-select: none; /* Safari */
+				 -khtml-user-select: none; /* Konqueror HTML */
+				   -moz-user-select: none; /* Old versions of Firefox */
+					-ms-user-select: none; /* Internet Explorer/Edge */
+						user-select: none; /* Non-prefixed version, currently
+											  supported by Chrome, Opera and Firefox */
 				
 			}
 
@@ -3631,14 +3649,15 @@ input, select, textarea {
 					justify-content: center;
 					width: 100%;
 					height:100%
-		
+
+			
 				}
 					.pr-imgDivider .header h2
 					{
 						
 						/* align-self: flex-center; */
 						font-size:50px;	
-						margin-block-end:0;		
+						margin-block-end:0;			  
 					}
 
 			.pr-Summary
@@ -3672,11 +3691,11 @@ input, select, textarea {
 				.pr-FlexArticle
 				{
 					display:flex;
-					align-items: center;
+					align-items: start;
 					justify-content:center;
-				}
-								
-					.pr-FlexArticle .pr-imgDivider{
+				}								
+					.pr-FlexArticle .pr-imgDivider
+					{
 
 						margin: 1.5em 1em 1em 1em!important;	
 					}
@@ -3733,7 +3752,7 @@ input, select, textarea {
 			{
 				display:flex;
 				flex-wrap:wrap;
-				margin: 1em 1em 0 1em;
+				margin: 1em 1.5em 0 1em;
 			}
 				.pr-galleryBlock
 				{	
