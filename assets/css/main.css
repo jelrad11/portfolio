@@ -3575,6 +3575,7 @@ input, select, textarea {
 
 			#main .pr-Article p
 			{
+				display: flex;
 				text-align:justify;
 				margin: 0em 1.5em 0em 1.5em;
 				margin-bottom:2em;
@@ -3675,6 +3676,7 @@ input, select, textarea {
 
 				.pr-Summary p 
 				{
+					display:inline-block!important;
 					text-align: left !important;
 					color:white;
 					margin: 0em 0em 0em 0em !important;
@@ -3685,6 +3687,15 @@ input, select, textarea {
 				.pr-Summary .bold
 				{
 					font-family:"Ilisarniq-bold";	
+				}
+
+				.pr-SummaryButton
+				{
+					display:flex;
+					justify-content: center;
+					padding:0 !important;			
+					opacity:1 !important;		
+					
 				}
 
 							
