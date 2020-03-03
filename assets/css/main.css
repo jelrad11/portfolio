@@ -3624,7 +3624,7 @@ input, select, textarea {
 			{
 				display: flex;
 				text-align:justify;
-				margin: 0em 1.5em 0em 1.5em;
+				margin: 0em 1.5em 1.5em 1.5em;
 				margin-bottom:2em;
 				color:white;
 				opacity:0.5;
@@ -3729,7 +3729,7 @@ input, select, textarea {
 					color:white;
 					margin: 0em 0em 0em 0em ;
 					opacity:0.55 ;
-					margin-bottom:0.5em;
+					margin-bottom:em;
 				}
 
 				.pr-Summary .bold
@@ -3869,10 +3869,9 @@ input, select, textarea {
 						
 					}
 
-					
 					.pr-imgDivider .header h2
 					{
-						font-size:35px;
+						font-size:28px;
 						letter-spacing: 1px;
 					}
 				}
@@ -3922,7 +3921,7 @@ input, select, textarea {
 						}
 					.pr-imgDivider .header h2
 					{
-						font-size:20px;
+						font-size:18px;
 						letter-spacing: 3px;
 					}
 					.pr-imgDivider
