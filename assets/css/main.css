@@ -3676,7 +3676,7 @@ input, select, textarea {
 
 				.pr-Summary p 
 				{
-					display:inline-block!important;
+					display:block!important;
 					text-align: left !important;
 					color:white;
 					margin: 0em 0em 0em 0em !important;
