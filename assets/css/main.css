@@ -3729,7 +3729,7 @@ input, select, textarea {
 					color:white;
 					margin: 0em 0em 0em 0em ;
 					opacity:0.55 ;
-					margin-bottom:1em;
+					margin-bottom:0.5em;
 				}
 
 				.pr-Summary .bold
@@ -3881,7 +3881,7 @@ input, select, textarea {
 				@media screen and (max-width: 480px) {
 					#main .pr-Article p
 					{
-						margin:0 1em 1.5em 1em;
+						margin:0 1em 0.5em 1em;
 						font-size:15px;
 						
 					}
