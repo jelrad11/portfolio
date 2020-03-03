@@ -3827,17 +3827,24 @@ input, select, textarea {
 				@media screen and (max-width: 480px) {
 					#main .pr-Article p
 					{
-						margin:0.5em;
+						margin:0 0 2em 0;
 						font-size:13px;
 					}
 					.pr-Summary h3
 					{
-						
+						text-align:center;
+					}
+					.pr-Summary 
+					{
+						text-align:center;
 					}
 					.pr-Summary
 					{
+						display:contents;
 						padding: 0em 1em 0.5em 1em;
+						margin:2em;
 						margin:0;
+						width:40%
 					}
 
 
