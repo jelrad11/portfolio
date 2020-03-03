@@ -2399,7 +2399,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin-bottom:3em;
+			margin-bottom:0.75em;
 			width: 100%;
 		}
 
@@ -2752,44 +2752,91 @@ input, select, textarea {
 			.tiles article.style1 > .image:before{
 				background-color: #255c85;
 			}
+				.pr-Summary .style1 a:hover {
+					color: #255c85 !important;	
+					box-shadow: inset 0 0 0 2px #255c85 !important;
+				}
 
 			.tiles article.style2 > .image:before{
 				background-color: #761a19;
 			}
+				.pr-Summary .style2 a:hover {
+					color: #761a19 !important;	
+					box-shadow: inset 0 0 0 2px #761a19 !important;
+				}
 
 			.tiles article.style3 > .image:before{
 				background-color: #2b3131;
 			}
+				.pr-Summary .style3 a:hover {
+					color: #2b3131 !important;	
+					box-shadow: inset 0 0 0 2px #2b3131 !important;
+				}
 
 			.tiles article.style4 > .image:before{
 				background-color: #ea5a56;
 			}
+				.pr-Summary .style4 a:hover {
+					color: #ea5a56 !important;	
+					box-shadow: inset 0 0 0 2px #ea5a56 !important;
+				}
+
 
 			.tiles article.style01 > .image:before{
 				background-color: #c4896a;
 			}
+				.pr-Summary .style01 a:hover {
+					color: #c4896a !important;	
+					box-shadow: inset 0 0 0 2px #c4896a !important;
+				}
 
 			.tiles article.style02 > .image:before{
-				background-color: #67a128;
+				background-color: #67a128;	
 			}
+				.pr-Summary .style02 a:hover {
+					color: #67a128 !important;	
+					box-shadow: inset 0 0 0 2px #67a128 !important;
+				}
 
 			.tiles article.style03 > .image:before{
 				background-color: #9b2039;
 			}
+				.pr-Summary .style03 a:hover {
+					color: #9b2039 !important;	
+					box-shadow: inset 0 0 0 2px #9b2039 !important;
+				}
 
 			.tiles article.style04 > .image:before{
 				background-color: #ec8120;
 			}
+				.pr-Summary.style04 a:hover {
+					color: #ec8120 !important;	
+					box-shadow: inset 0 0 0 2px #ec8120 !important;
+				}
 
 			.tiles article.style001 > .image:before{
 				background-color: #8c2c2d;
 			}
+				.pr-Summary .style001 a:hover {
+					color: #8c2c2d !important;	
+					box-shadow: inset 0 0 0 2px #8c2c2d !important;
+				}
+
 			.tiles article.style002 > .image:before{
 				background-color: #ec8120;
 			}
+				.pr-Summary .style002 a:hover {
+					color: #ec8120 !important;	
+					box-shadow: inset 0 0 0 2px #ec8120 !important;
+				}
+
 			.tiles article.style003 > .image:before{
 				background-color: #ec8120;
 			}
+				.pr-Summary .style003 a:hover {
+					color: #ec8120 !important;	
+					box-shadow: inset 0 0 0 2px #ec8120 !important;
+				}
 
 
 			 .tiles .styleTitle{
@@ -3596,7 +3643,7 @@ input, select, textarea {
 
 			.pr-header img
 			{
-				margin:0em 0em 1em 0em ;
+				margin:0em 0em 1.5em 0em ;
 				height:10em;
 				object-fit:cover;
 				object-position: 50% 80%;
