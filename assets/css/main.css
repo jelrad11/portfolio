@@ -2756,6 +2756,9 @@ input, select, textarea {
 					color: #255c85 !important;	
 					box-shadow: inset 0 0 0 2px #255c85 !important;
 				}
+				.project-Selector .style1 a:hover {
+					color: #255c85 !important;
+				}
 
 			.tiles article.style2 > .image:before{
 				background-color: #761a19;
@@ -2763,6 +2766,9 @@ input, select, textarea {
 				.pr-Summary .style2 a:hover {
 					color: #761a19 !important;	
 					box-shadow: inset 0 0 0 2px #761a19 !important;
+				}
+				.project-Selector .style2 a:hover {
+					color: #761a19 !important;
 				}
 
 			.tiles article.style3 > .image:before{
@@ -2772,6 +2778,9 @@ input, select, textarea {
 					color: #2b3131 !important;	
 					box-shadow: inset 0 0 0 2px #2b3131 !important;
 				}
+				.project-Selector .style3 a:hover {
+					color: #2b3131 !important;
+				}
 
 			.tiles article.style4 > .image:before{
 				background-color: #ea5a56;
@@ -2779,6 +2788,9 @@ input, select, textarea {
 				.pr-Summary .style4 a:hover {
 					color: #ea5a56 !important;	
 					box-shadow: inset 0 0 0 2px #ea5a56 !important;
+				}
+				.project-Selector .style4 a:hover {
+					color: #ea5a56 !important;
 				}
 
 
@@ -2789,13 +2801,19 @@ input, select, textarea {
 					color: #c4896a !important;	
 					box-shadow: inset 0 0 0 2px #c4896a !important;
 				}
+				.project-Selector .style01 > a:hover {
+					color: #c4896a !important;
+				}
 
 			.tiles article.style02 > .image:before{
-				background-color: #67a128;	
+				background-color: #c4896a;	
 			}
 				.pr-Summary .style02 a:hover {
 					color: #67a128 !important;	
 					box-shadow: inset 0 0 0 2px #67a128 !important;
+				}
+				.project-Selector .style02 a:hover {
+					color: #67a128 !important;
 				}
 
 			.tiles article.style03 > .image:before{
@@ -2805,6 +2823,9 @@ input, select, textarea {
 					color: #9b2039 !important;	
 					box-shadow: inset 0 0 0 2px #9b2039 !important;
 				}
+				.project-Selector .style03 a:hover {
+					color: #9b2039 !important;
+				}
 
 			.tiles article.style04 > .image:before{
 				background-color: #ec8120;
@@ -2812,6 +2833,9 @@ input, select, textarea {
 				.pr-Summary.style04 a:hover {
 					color: #ec8120 !important;	
 					box-shadow: inset 0 0 0 2px #ec8120 !important;
+				}
+				.project-Selector .style04 a:hover {
+					color: #ec8120 !important;
 				}
 
 			.tiles article.style001 > .image:before{
@@ -2821,6 +2845,9 @@ input, select, textarea {
 					color: #8c2c2d !important;	
 					box-shadow: inset 0 0 0 2px #8c2c2d !important;
 				}
+				.project-Selector .style001 a:hover {
+					color: #8c2c2d !important;
+				}
 
 			.tiles article.style002 > .image:before{
 				background-color: #ec8120;
@@ -2829,6 +2856,9 @@ input, select, textarea {
 					color: #ec8120 !important;	
 					box-shadow: inset 0 0 0 2px #ec8120 !important;
 				}
+				.project-Selector .style002 a:hover {
+					color: #ec8120 !important;
+				}
 
 			.tiles article.style003 > .image:before{
 				background-color: #ec8120;
@@ -2836,6 +2866,9 @@ input, select, textarea {
 				.pr-Summary .style003 a:hover {
 					color: #ec8120 !important;	
 					box-shadow: inset 0 0 0 2px #ec8120 !important;
+				}
+				.project-Selector .style003 a:hover {
+					color: #ec8120 !important;
 				}
 
 
@@ -3507,6 +3540,79 @@ input, select, textarea {
 			}
 
 		}
+
+	.project-Selector
+	{
+		
+		width:100%;
+		height:20px;
+		display:flex;
+		
+		text-decoration: none;
+		border-bottom:0px;
+
+		justify-content: space-between;
+		margin-top:2.2em;
+		margin-bottom:3.25em;
+		align-items: baseline;
+	}
+		.projectButton
+		{
+			margin:1em;
+		}
+		.project-Selector .leftGroup
+		{
+			display:flex;
+		}
+
+		.project-Selector h1
+		{
+			margin-left: -1em;
+			
+		}
+		.project-Selector a
+		{
+			border-bottom:0px
+		}
+		.project-Selector i
+		{
+			font-size:2em;
+		}
+
+	/* Icons responsivity */
+
+	@media screen and (max-width: 736px) 
+	{
+		.project-Selector
+		{
+			margin-bottom:2em;
+		}
+		.projectButton
+		{
+			margin:0.5em;
+		}
+		.project-Selector i
+		{
+			font-size:1.75em;
+		}
+		
+	}
+	@media screen and (max-width: 480px) 
+	{
+		.projectButton
+		{
+			margin-left:0.5em;
+		}
+		.project-Selector i
+		{
+			font-size:1.25em;
+		}
+		
+	}
+
+
+
+
 
 
 	h2.headerDesc  
