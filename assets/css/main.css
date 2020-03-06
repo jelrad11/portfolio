@@ -4096,7 +4096,24 @@ input, select, textarea {
 							{
 								width:30%;
 							}
-				
+						
+							@media screen and (max-width: 980px) 
+							{
+								.youtube-container{
+									flex-direction: column;
+								}
+									.video-container
+									{
+
+										width:100%;
+										margin:0 auto 2em auto;
+									}
+								
+									.video-descr
+									{
+										width:100%;
+									}
+							}
 
 
 
