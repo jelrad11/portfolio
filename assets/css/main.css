@@ -188,7 +188,6 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #fca554 !important;
 		}
 
 	strong, b {
@@ -3193,7 +3192,7 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #292929e3;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3326,6 +3325,10 @@ input, select, textarea {
 					}
 
 		}
+			#menu a:hover
+			{
+				color: rgba(209, 209, 209, 0.726) !important;
+			}
 
 	body.is-menu-visible #wrapper {
 		pointer-events: none;
