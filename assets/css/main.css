@@ -3643,7 +3643,7 @@ input, select, textarea {
 				opacity:0.65;
 			}
 		
-	/* resHeaderinner dividers */
+		/* resHeaderinner dividers */
 			.resWelcome
 			{
 				padding:2em;
@@ -3662,7 +3662,7 @@ input, select, textarea {
 					border-radius:10px;
 				}
 	
-	/* Header-wide */		
+		/* Header-wide */		
 
 
 		
@@ -3721,7 +3721,7 @@ input, select, textarea {
 		
 		.resumeGrid-MyCareer { 
 
-			/* background-color: rgba(88, 88, 88, 0.5); */
+		/* background-color: rgba(88, 88, 88, 0.5); */
 		}
 			.resumeGrid-MyCareer p
 			{
@@ -3799,8 +3799,103 @@ input, select, textarea {
 
 			}
 
-/* Resume Experience */
+	/* Software Skills */
+	
+	.softwareBlock
+	{
+		margin-right: 0px;
+		margin-bottom: 50px;
+		margin-left: 0px;
+		padding: 15px 25px 35px;
+		border-radius: 10px;
+		background-color: #1f1f1f;
 
+
+	}
+		.softwareBlock h2
+		{
+			margin-top: 15px;
+    		margin-bottom: 10px;
+
+			font-family:"Ilisarniq-regular";
+			text-transform: none;
+			font-size:32px;
+			letter-spacing:0;
+			margin:10px 0;
+		}
+		.softwareGrid
+		{
+			grid-column-gap: 0px;
+			grid-row-gap: 0px;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: auto auto;
+			display: grid;
+			grid-auto-columns: 1fr;
+		}
+		.softwareCell
+		{
+			margin:1px;
+			display:block;
+			box-sizing:border-box;
+
+
+			margin: 10px;
+			padding: 4px;
+			border-radius: 7px;
+			display: flex;
+
+			-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+			-webkit-transition: -webkit-filter 200ms ease;
+			transition: -webkit-filter 200ms ease;
+			transition: filter 200ms ease;
+			transition: filter 200ms ease, -webkit-filter 200ms ease;
+
+			
+			-webkit-touch-callout: none; /* iOS Safari */
+				-webkit-user-select: none; /* Safari */
+				-khtml-user-select: none; /* Konqueror HTML */
+					-moz-user-select: none; /* Old versions of Firefox */
+					-ms-user-select: none; /* Internet Explorer/Edge */
+						user-select: none; /* Non-prefixed version, currently
+											supported by Chrome, Opera and Firefox */
+			
+		}
+			.softwareCell img 
+			{
+				display: inline;
+				vertical-align: middle;
+				max-width: 65px;
+				max-height: 65px;
+				
+			}
+
+
+			.softwareCell h4
+			{
+				font-family: "Ilisarniq-regular";
+				display: inline-block;
+				letter-spacing:0;
+				text-transform: none;
+
+				margin-left: 15px;
+				padding-left: 0px;
+				direction: ltr;
+				color: rgba(255, 255, 255, 0.7);
+				font-size: 16px;
+				text-align: left;
+				
+				
+			}
+				.softwareCell:hover
+				{
+					-webkit-filter: grayscale(0%);
+					filter: grayscale(0%);
+				}
+
+
+
+	/* Resume Experience */
 
 		.section2
 		{
