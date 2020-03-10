@@ -200,6 +200,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-family:"Ilisarniq-regular";
 	}
 
 	h1 {
@@ -3613,8 +3614,58 @@ input, select, textarea {
 		
 	}
 
+	.resHeader
+	{
+		background: rgb(253,170,81);
+		background: linear-gradient(170deg, rgba(253,170,81,1) 0%, rgba(247,102,50,1) 100%);
+		
+	}
+		.resHeaderinner
+		{
+			display:flex;
+			text-align:center;
+			color:white;
+		}
+			.resHeaderinner h1
+			{
+
+			}
+
+			.resHeaderinner h2
+			{
+				letter-spacing:1px;
+			}
+			.resHeaderinner p
+			{
+				font-size:16px;
+				text-align:center;
+				color: white;
+				opacity:0.65;
+			}
+		
+	/* resHeaderinner dividers */
+			.resWelcome
+			{
+				padding:2em;
+				
+			}
 
 
+			.resImage
+			{
+				padding:2em;
+				width:50%;
+			}
+
+				.resImage img
+				{
+					border-radius:10px;
+				}
+	
+	/* Header-wide */		
+
+
+		
 
 
 
@@ -3669,14 +3720,32 @@ input, select, textarea {
 
 		
 		.resumeGrid-MyCareer { 
-			grid-area: 1 / 1 / 2 / 2; 
+
 			/* background-color: rgba(88, 88, 88, 0.5); */
 		}
 			.resumeGrid-MyCareer p
 			{
 				padding: 0.5em 1.5em 1.5em 1.5em;
 				margin-bottom: 0;
-				grid-area:myCareer;
+				
+				text-transform: none;
+				font-size:17px;
+				letter-spacing:0;
+				line-height: 28px;
+
+				color: rgba(255, 255, 255, 0.35);
+				
+			}
+			.resumeGrid-MyCareer h2
+			{
+				font-family:"Ilisarniq-regular";
+				text-transform: none;
+				font-size:32px;
+				letter-spacing:0;
+				color:#fff;
+
+				margin:10px 0;
+	
 			}
 
 
@@ -3706,6 +3775,7 @@ input, select, textarea {
 			{
 				
 				font-family: "Ilisarniq-regular";	
+				text-transform:none;
 				font-size:30px;
 				line-height: 35px;
 				margin:18px 0 18px 0;
@@ -3728,6 +3798,74 @@ input, select, textarea {
 				}
 
 			}
+
+/* Resume Experience */
+
+
+		.section2
+		{
+			text-align: left;
+		}
+			.section2 li
+			{
+				list-style: none;
+				
+			}
+			.section2 p
+			{
+
+				text-transform: none;
+				font-size:17px;
+				letter-spacing:0;
+				line-height: 28px;
+
+				color: rgba(255, 255, 255, 0.35);
+			}
+			.section2 h2
+			{
+				font-family:"Ilisarniq-regular";
+				text-transform: none;
+				font-size:32px;
+				letter-spacing:0;
+				color:#fff;
+
+				margin:10px 0;
+			}
+			.section2 h3
+			{
+				display:inline;
+				font-family:"Ilisarniq-regular";
+				text-transform: none;
+				font-size:24px;
+				letter-spacing:0;
+				color:white;
+			}
+				.section2 .workType
+				{
+					margin:22px;
+					display:inline;
+					color: rgba(255, 255, 255, 0.55);
+				}
+				.section2 .workPeriod
+				{
+						color: rgba(255, 255, 255, 0.55);
+						font-size:14px;
+						margin-bottom: 10px;
+				}
+			
+				.section2 .experience
+				{
+					width:40%;
+				}
+
+
+
+
+
+
+
+
+
 
 			#main .pr-Article p
 			{
