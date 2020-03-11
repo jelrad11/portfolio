@@ -3825,6 +3825,12 @@ input, select, textarea {
 		}
 		.softwareGrid
 		{
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-sizing: border-box;
+
 			grid-column-gap: 0px;
 			grid-row-gap: 0px;
 			grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -3834,11 +3840,6 @@ input, select, textarea {
 		}
 		.softwareCell
 		{
-			margin:1px;
-			display:block;
-			box-sizing:border-box;
-
-
 			margin: 10px;
 			padding: 4px;
 			border-radius: 7px;
@@ -3858,23 +3859,17 @@ input, select, textarea {
 					-moz-user-select: none; /* Old versions of Firefox */
 					-ms-user-select: none; /* Internet Explorer/Edge */
 						user-select: none; /* Non-prefixed version, currently
-											supported by Chrome, Opera and Firefox */
-			
+											supported by Chrome, Opera and Firefox */	
 		}
 			.softwareCell img 
 			{
-				display: inline;
-				vertical-align: middle;
 				max-width: 65px;
 				max-height: 65px;
-				
 			}
-
 
 			.softwareCell h4
 			{
 				font-family: "Ilisarniq-regular";
-				display: inline-block;
 				letter-spacing:0;
 				text-transform: none;
 
@@ -3884,6 +3879,7 @@ input, select, textarea {
 				color: rgba(255, 255, 255, 0.7);
 				font-size: 16px;
 				text-align: left;
+				vertical-align: middle;
 				
 				
 			}
@@ -3901,6 +3897,7 @@ input, select, textarea {
 		{
 			text-align: left;
 			display:flex;
+			padding: 0 40px
 		}
 			.section2 li
 			{
@@ -3951,11 +3948,11 @@ input, select, textarea {
 			
 				.section2 .SubSec01
 				{
-					width:50%;
+					width:calc(50%-10em);
 				}
 				.section2 .SubSec02
 				{
-					width:50%-10em;
+					width:calc(50%-10em);
 					margin-left:5em;
 				}
 
@@ -3983,7 +3980,7 @@ input, select, textarea {
 					border-radius: 6px;
 					background-color: #1f1f1f;
 				}
-				.interestText h5
+				.interestText h4
 				{
 					font-family:"Ilisarniq-regular";
 					color: rgba(255, 255, 255, 0.6);
