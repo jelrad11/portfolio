@@ -3696,13 +3696,11 @@ input, select, textarea {
 	}
 
 	.resumeGrid {
-		display: flex;
-		flex-wrap:nowrap;
 		text-align: center;
 		
 		
 		padding: 1em;
-		margin:0 0 2.5em 0;
+		margin:0 0 2em 0;
 		/* background-color: rgba(255, 255, 255, 0.15); */
 
 		grid-template-columns: auto-fill;
@@ -3722,6 +3720,7 @@ input, select, textarea {
 		.resumeGrid-MyCareer { 
 
 		/* background-color: rgba(88, 88, 88, 0.5); */
+		margin-bottom:2em;
 		}
 			.resumeGrid-MyCareer p
 			{
@@ -3734,6 +3733,8 @@ input, select, textarea {
 				line-height: 28px;
 
 				color: rgba(255, 255, 255, 0.35);
+				margin: 0 auto;
+				width:70%;
 				
 			}
 			.resumeGrid-MyCareer h2
@@ -3744,43 +3745,34 @@ input, select, textarea {
 				letter-spacing:0;
 				color:#fff;
 
-				margin:10px 0;
+				margin:0px 0;
 	
 			}
 
+			.resumeGrid-Services div
+			{
+				display:inline-block;
+				width:19%;
 
-		.resumeGrid-Services { 
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			grid-template-rows: 1fr;
-			grid-column-gap: 20px;
-			grid-row-gap: 0px;
-			grid-area: 1 / 2 / 2 / 3;
-			/*background-color:rgba(88, 88, 88, 0.5);}*/
-			grid-area:myServices;
 			}
-			
-			.serviceCol1{
-				padding:1.25em;
-				/* background-color:orange; */
-				
-			}
-			
-			.serviceCol2{
-				padding:1.25em;
-				/* background-color:orange; */
+
+
+		.resumeGrid-Services 
+			{ 			
+			width:100%
 			}
 
 			.resumeGrid-Services h3
 			{
-				
 				font-family: "Ilisarniq-regular";	
 				text-transform:none;
 				font-size:30px;
 				line-height: 35px;
-				margin:18px 0 18px 0;
+				margin:18px 10px 18px 0;
 				letter-spacing: 0em;
-				text-align:left;
+				text-align:center;
+
+
 
 				color:rgba(255,255,255,0.6);
 			}
@@ -3816,12 +3808,13 @@ input, select, textarea {
 		{
 			margin-top: 15px;
     		margin-bottom: 10px;
+			text-align:center;
 
 			font-family:"Ilisarniq-regular";
 			text-transform: none;
 			font-size:32px;
 			letter-spacing:0;
-			margin:10px 0;
+			margin:10px 0 1em 0;
 		}
 		.softwareGrid
 		{
