@@ -3734,7 +3734,7 @@ input, select, textarea {
 
 				color: rgba(255, 255, 255, 0.35);
 				margin: 0 auto;
-				width:70%;
+				width:50%;
 				
 			}
 			.resumeGrid-MyCareer h2
@@ -3830,6 +3830,7 @@ input, select, textarea {
 			grid-template-rows: auto auto;
 			display: grid;
 			grid-auto-columns: 1fr;
+			margin:1.5em 1.5em 0 1.5em;
 		}
 		.softwareCell
 		{
