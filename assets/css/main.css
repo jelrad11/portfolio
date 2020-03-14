@@ -4398,7 +4398,15 @@ input, select, textarea {
 										width:100%;
 									}
 							}
-
+						
+						.imageWide
+						{
+							padding:0em 1em ;
+						}
+						.imageWide img
+						{
+							width:100%;
+						}
 
 
 
