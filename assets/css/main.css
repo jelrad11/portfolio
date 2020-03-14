@@ -4401,7 +4401,8 @@ input, select, textarea {
 						
 						.imageWide
 						{
-							padding:0em 1em ;
+							padding:0em 10em ;
+							margin-top:2em;
 						}
 						.imageWide img
 						{
