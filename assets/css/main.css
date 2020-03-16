@@ -4440,6 +4440,10 @@ input, select, textarea {
 						}
 						@media screen and (max-width: 736px) 
 						{
+							.pageDisclaimer
+							{ 
+								height:3.5em;margin:0;
+							}
 							.pageDisclaimer p
 							{
 								margin-top:0.5em;
