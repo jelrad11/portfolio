@@ -3007,7 +3007,10 @@ input, select, textarea {
 						-ms-transform: scale(1.0);
 						transform: scale(1.0);
 					}
-
+				.tiles article h2{
+					font-size:1.1em;
+					
+				}
 				.tiles .divider-div01{
 					margin-left:1.25em;
 				}
@@ -4448,6 +4451,7 @@ input, select, textarea {
 							{
 								margin-top:0.5em;
 								line-height: 1.25em;
+								padding-bottom:0.25em;
 
 							}
 						}
