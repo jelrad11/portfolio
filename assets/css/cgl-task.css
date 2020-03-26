@@ -1,0 +1,72 @@
+
+.c-header
+{
+	padding:0!important;
+	margin:0;
+	background-color:blue;
+}
+	.c-innerHeader
+	{
+		position:relative;
+	}
+	.c-innerHeaderText
+	{
+		position: absolute; 
+		left: 50%;
+		bottom:10%; 
+		text-align: center;
+		margin:1em;
+		overflow:auto;
+
+	}
+
+.c-main
+{
+	padding-bottom:0 !important;
+}
+
+
+	.c-essayBlock
+	{
+		border-radius:4px;
+		padding:2em;
+		margin:3em;
+		background-color:#1e1e1f;
+	}
+
+
+
+.c-thankYou
+{
+	width:100%; 
+
+	padding:5em 0 11em 0;
+
+}
+
+	.c-thankYou p
+	{
+		text-align:center;
+	}
+	.c-thankYou .c-1
+	{
+		color:white;
+		margin:0;
+		font-size:3.8em;
+		font-family:"Ilisarniq-bold";
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+	.c-thankYou .c-2
+	{
+		color:white;
+		font-size:1.1em;
+
+	}
+	.c-thankYou-Inner
+	{
+		display:block;
+		margin:0 auto;
+	}
+
+	
