@@ -69,4 +69,28 @@
 		margin:0 auto;
 	}
 
-	
+	.pr-Image-TextArticle
+	{
+		margin: 0 2em;
+	}
+	.pr-Image-TextColumn
+	{
+		max-width:50%
+	}
+	.pr-Image-TextColumn
+	{
+		
+	}
+
+	@media screen and (max-width: 980px) {
+		.pr-Image-TextArticle
+		{
+			flex-wrap: wrap;
+
+		}
+		.pr-Image-TextColumn
+		{
+			width:100%;
+		}
+		
+	}
