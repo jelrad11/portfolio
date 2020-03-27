@@ -56,7 +56,7 @@
 
 
 header {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity .5s .25s ease-out;
   transition: opacity .5s .25s ease-out;
 }
