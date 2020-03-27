@@ -33,7 +33,6 @@
 
 .inline-article {
   margin-top:7em;
-  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
   opacity: 0;
   -webkit-transform: translateY(4em);
           transform: translateY(4em);
