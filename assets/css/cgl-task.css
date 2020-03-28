@@ -35,14 +35,14 @@
 		.c-innerHeaderText h1
 		{
 			text-align: center;
-			color:red;
+			color:white;
 			font-size:4em
 		}
 		.c-innerHeaderText p
 		{
 			margin-top:0.5em;
 			text-align: center;
-			color:red;
+			color:white;
 			font-size:1.25em
 		}
 
@@ -118,5 +118,53 @@
 		{
 			width:100%;
 		}
+		
+	}
+
+	#videoHeaderBG
+	{
+		z-index: -1;
+		width:100%;
+		height: auto;
+		filter: brightness(80%);
+		-webkit-filter: brightness(80%);
+	}
+
+	@media (min-aspect-ratio: 16/9) {
+		#videoHeaderBG{
+			width: 100%;
+			height: auto;
+		}
+	}
+	@media (max-aspect-ratio: 16/9) {
+		#videoHeaderBG{
+			
+		}
+	}
+
+	@media (min-width: 767px){
+		.headerVidPoster
+		{
+			display:none !important;
+		}
+
+		
+	}
+	@media (max-width: 767px){
+		#videoHeaderBG
+		{
+			display:none;
+		}
+
+		.headerVidPoster
+		{
+			
+			background:url("/images/CglTask/poster.jpg");
+			background-size:cover;
+
+			filter: brightness(80%);
+			-webkit-filter: brightness(80%);
+		}
+
 		
 	}
