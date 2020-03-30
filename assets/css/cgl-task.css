@@ -105,6 +105,11 @@
 			border-bottom: dotted 2px rgb(119, 119, 119);
 		}
 
+		.pr-FlexColumns.Columns2
+		{
+			width:50%;
+		}
+
 
 .c-thankYou
 {
