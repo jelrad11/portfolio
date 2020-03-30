@@ -106,7 +106,24 @@
 	.pr-Image-TextColumn
 	{
 		
+	}	
+	.pr-Image-TextColumn h3
+	{
+		margin:0 1em;
+		margin-bottom:1em;
+		font-size:1.5em;
+		letter-spacing:0;
+
 	}
+		.pr-Image-TextColumn .left
+		{
+			text-align:left;
+		}
+		.pr-Image-TextColumn .right
+		{
+			text-align:right;
+		}
+
 
 	@media screen and (max-width: 980px) {
 		.pr-Image-TextArticle
