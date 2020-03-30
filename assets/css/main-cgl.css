@@ -3995,9 +3995,8 @@ input, select, textarea {
 
 			#main .pr-Article p
 			{
-				display: flex;
 				text-align:justify;
-				margin: 0em 1.5em 1.5em 1.5em;
+				margin: 0em 2.5em 1.5em 2.5em;
 				margin-bottom:2em;
 				color:white;
 				opacity:0.5;
@@ -4141,7 +4140,7 @@ input, select, textarea {
 			{
 				display:flex;
 				flex-wrap:wrap;
-				margin: 1em 1.5em 0 1em;
+				margin: 0em 1.5em 5em 1em;
 			}
 				.pr-galleryBlock
 				{	
@@ -4467,4 +4466,7 @@ input, select, textarea {
 							 user-select: none;
 						 } 
 
-
+					.font-italic
+					{
+						font-family:"Ilisarniq-italic";
+					}
