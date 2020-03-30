@@ -111,6 +111,17 @@
 		}
 
 
+	.c-image-right
+	{
+		padding-right:2em;
+		width:40%;
+	}
+	.c-image-left
+	{
+		padding-left:2em;
+		width:40%;
+	}
+
 .c-thankYou
 {
 	width:50%; 
@@ -234,6 +245,12 @@
 			display:none;
 		}
 
+		.inner .pr-FlexArticle p
+		{
+			margin:1em !important;
+		}
+
+
 		.headerVidPoster
 		{
 			
@@ -242,6 +259,157 @@
 
 			filter: brightness(80%);
 			-webkit-filter: brightness(80%);
+		}
+		.c-innerHeaderText
+		{
+			bottom:30%
+		}
+
+			.c-innerHeaderText h1
+			{
+				line-height:1;
+				
+				font-size:3em;
+			}
+			.c-disclaimer
+			{
+				padding:0.5em;
+			}
+			.c-essayBlock
+			{
+				margin:0;
+				padding:1em 0; 
+			} 
+			
+			.pr-FlexColumns.Columns2 p
+			{
+				margin:1em 1em!important;
+			}
+			.pr-FlexColumns.Columns2
+			{
+				width:100%
+			}
+			.pr-FlexColumns.Columns2 p
+			{
+				margin-bottom:3em;
+			}
+			.pr-Image-TextColumn
+			{
+				max-width:100%;
+			}
+			
+			.pr-Image-TextArticle
+			{
+				margin:0;
+			}
+				.pr-Image-TextColumn .right
+				{
+					text-align:center;
+				}
+		
+				.pr-Image-TextColumn .left
+				{
+					text-align:center;
+				}
+
+				.c-image-right
+				{
+					padding-right:0;
+					width:100%
+				}
+				.c-image-left
+				{
+					padding-left:0;
+					width:100%
+				}
+			.c-credits
+			{
+				margin: 1em 0;
+				padding:1em 0; 
+			}
+			.c-creditsColumns .pr-FlexColumns
+			{
+				width:100%;
+			}
+			.c-creditsColumns .pr-FlexColumns 
+			{
+				margin-bottom:1em;
+			}
+			.c-1
+			{
+				letter-spacing:15px !important;
+				margin-bottom:0.5em  !important;
+			}
+
+		@media (max-width: 480px){
+			.c-innerHeaderText
+			{
+				bottom:10%
+			}
+
+				.c-innerHeaderText h1
+				{
+					line-height:1;
+					
+					font-size:2.5em;
+				}
+
+			.pr-FlexColumns.Columns2
+			{
+				width:100%
+			}
+			.pr-FlexColumns.Columns2 p
+			{
+				margin-bottom:3em;
+			}
+			.pr-Image-TextColumn
+			{
+				max-width:100%;
+			}
+			
+			.pr-Image-TextArticle
+			{
+				margin:0;
+			}
+				.pr-Image-TextColumn .right
+				{
+					text-align:center;
+				}
+		
+				.pr-Image-TextColumn .left
+				{
+					text-align:center;
+				}
+
+				.c-image-right
+				{
+					padding-right:0;
+					width:100%
+				}
+				.c-image-left
+				{
+					padding-left:0;
+					width:100%
+				}
+			.c-essayBlock
+			{
+				margin:0;
+				padding:1em 0; 
+			} 
+			.c-credits
+			{
+				margin: 1em 0;
+				padding:1em 0; 
+			}
+			.c-creditsColumns .pr-FlexColumns
+			{
+				width:100%;
+			}
+			.c-creditsColumns .pr-FlexColumns 
+			{
+				margin-bottom:1em;
+			}
+			
 		}
 
 		
