@@ -3998,18 +3998,16 @@ input, select, textarea {
 				text-align:justify;
 				margin: 0em 2.5em 1.5em 2.5em;
 				margin-bottom:2em;
-				color:white;
-				opacity:0.5;
+				color:rgb(155, 155, 155);
 				font-size:17px;
 			}
 
 			#main .pr-Article li
 			{
+				font-family:"Ilisarniq-regular";
 				text-align:justify;
-				margin: 0em 1.5em 0em 1.5em;
-
-				color:white;
-				opacity:0.5;
+				margin: 0em 2.5em 0em 2.5em;
+				color:rgb(155, 155, 155);
 				font-size:17px;
 			}
 
