@@ -4124,6 +4124,7 @@ input, select, textarea {
 					display:flex;
 					align-items: start;
 					justify-content:center;
+					margin:3em 0 2em 0;
 				}								
 					.pr-FlexArticle .pr-imgDivider
 					{
