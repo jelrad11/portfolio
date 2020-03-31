@@ -47,14 +47,15 @@
 		{
 			text-align: center;
 			color:white;
-			font-size:4em
+			font-size:6.5em;
+			margin-bottom: 0.2em;
 		}
 		.c-innerHeaderText p
 		{
-			margin-top:0.5em;
+			margin-bottom:0.7em;
 			text-align: center;
 			color:white;
-			font-size:1.25em
+			font-size:1.5em
 		}
 
 .c-headerSmall img
@@ -268,7 +269,6 @@
 			.c-innerHeaderText h1
 			{
 				line-height:1;
-				
 				font-size:3em;
 			}
 			.c-disclaimer
