@@ -34,6 +34,13 @@
 	font-style: normal;
 }
 
+@font-face{
+	font-family:'Ilisarniq-lightitalic';
+	src: url(/assets/fonts/Ilisarniq-LightItalic.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 
